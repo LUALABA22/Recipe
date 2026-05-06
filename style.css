@@ -1,0 +1,144 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, ::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: "outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(24, 28%, 88%);
+    padding: 3rem
+
+}
+
+:root{
+    --brown:hsl(14, 45%, 36%);
+    --stone-900:hsl(24, 5%, 18%);
+    --rose-800:hsl(332, 51%, 32%);
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section{
+    width: 100%;
+    max-width: 700px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+h1,h2{
+    font-family: "young serif", serif;
+    font-size: 2rem;
+}
+
+span{
+    color: var(--stone-900);
+    font-weight: 600;
+}
+
+h2{
+    color: var(--brown);
+}
+
+hr{
+    border: none;
+    height: 0.01rem;
+    background-color: hsl(30, 18%, 87%);
+}
+
+li{
+    padding-inline-start: 1rem;
+    font-size: 1rem;
+}
+ul li::marker{
+    color: var(--brown);
+}
+
+ol, ul{
+    line-height: 1.7;
+}
+
+
+/*Preparartion*/
+.preparation h1{
+    color: var(--stone-900);
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.preparation h2{
+    color: var(--rose-800);
+    font-size: 1.25rem;
+    padding-inline-start: 1.7rem;
+    font-family: "outfit", sans-serif;
+    font-weight: 400;
+}
+.preparation ul li::marker{
+    color: var(--rose-800);
+}
+.time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+
+/*ingredient*/
+ol li::marker{
+    color: var(--brown);
+}
+
+
+/*Nutrition*/
+table{
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.value{
+    font-weight: 700;
+    color: var(--brown);
+}
+
+
+/*pied de page*/
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
