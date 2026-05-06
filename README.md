@@ -25,7 +25,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/LUALABA22/Recipe.git
 - Live Site URL: 
 
 ## My process
